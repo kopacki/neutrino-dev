@@ -1,6 +1,6 @@
 {
   "name": "neutrino-preset-sass",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Neutrino preset which allows to use http://sass-lang.com/ in the project",
   "main": "src/index.js",
   "keywords": [
@@ -10,7 +10,7 @@
   ],
   "author": "Tomasz Kopacki <tomasz@kopacki.net>",
   "license": "MPL-2.0",
-  "repository": "mozilla-neutrino/neutrino-dev",
+  "repository": "kopacki/neutrino-dev",
   "dependencies": {
     "css-loader": "^0.26.2",
     "node-sass": "^4.5.0",
@@ -20,6 +20,5 @@
   "peerDependencies": {
     "neutrino": "^4.0.0"
   },
-  "homepage": "https://neutrino.js.org",
-  "bugs": "https://github.com/mozilla-neutrino/neutrino-dev/issues"
+  "bugs": "https://github.com/kopacki/neutrino-dev/issues"
 }
