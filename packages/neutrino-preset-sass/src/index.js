@@ -10,7 +10,12 @@ module.exports = ({ config }) => {
   config.module
     .rule('scss')
       .test(/\.scss$/)
-      .loader('style', STYLE_LOADER)
-      .loader('css', CSS_LOADER)
-      .loader('sass', SASS_LOADER);
+        .use('style')
+          .loader(STYLE_LOADER)
+          .end()
+        .use('css')
+          .loader(CSS_LOADER)
+          .end()
+        .use('sass')
+          .loader(SASS_LOADER);
 };
